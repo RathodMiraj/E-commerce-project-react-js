@@ -1,0 +1,31 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.light {
+    background: white;
+    color: #121212 !important;
+
+}
+
+.dark {
+    background: rgb(26, 30, 37);
+    color: #fff !important;
+}
+
+.ad {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+
+svg {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,89 @@
+.password-toggle {
+    cursor: pointer;
+    color: #888;
+    font-size: 40px;
+}
+
+.show-btn {
+    font-size: 13px;
+    margin-top: 35px;
+    margin-left: -30px;
+    position: relative;
+    right: 20px;
+}
+
+.Image-control {
+    width: 500px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 30px;
+}
+
+Link {
+    text-decoration: none;
+    color: black;
+}
+
+.Login-fonts {
+    font-size: 14px;
+    display: flex;
+}
+
+/* Add this CSS to your stylesheets */
+.dropzone {
+    border: 2px dashed #cccccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+}
+
+.dropzone img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width:992px) {
+    .Login-fonts {
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .dsad {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .llll {
+        display: none;
+    }
+
+    .asdas {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .Image-control {
+        width: 500px;
+        object-fit: contain;
+        object-position: center;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .Image-control {
+        width: 400px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Image-control {
+        width: 320px;
+        margin-top: 30px;
+    }
+}

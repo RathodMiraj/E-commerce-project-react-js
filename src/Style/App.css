@@ -1,0 +1,67 @@
+.about {
+  background-color: white;
+
+}
+
+.about .titlepage span,
+.about .titlepage h2 {
+
+  color: black !important;
+}
+
+.about .about_box .read_more {
+  background-color: black;
+  color: white !important;
+}
+
+.two_box {
+  background-color: white !important;
+}
+
+.two_box_img {
+  color: black !important;
+}
+
+
+/* Custom CSS for the table */
+.custom-table {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.custom-table th {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-table td {
+  padding: 25px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styling for the "Cancel Order" button */
+.custom-table .btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+
+  .custom-table th,
+  .custom-table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .custom-table .btn-danger {
+    padding: 4px 8px;
+  }
+}

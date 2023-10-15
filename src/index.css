@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ledtd {
+  padding-left: 80px;
+}
+.lplp{
+  position: relative;
+  right: 10px;
+}
+footer {
+  margin-top: auto !important;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.MuiTablePagination-toolbar.tss-1dccma1-MUIDataTablePagination-toolbar.mui-datatables-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+  display: none !important;
+}
+
+td.MuiTableCell-root.MuiTableCell-footer.MuiTableCell-sizeMedium.tss-1ork7hi-MUIDataTablePagination-tableCellContainer.mui-datatables-nfmglb-MuiTableCell-root {
+  display: none;
+}
